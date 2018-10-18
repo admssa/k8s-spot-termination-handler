@@ -23,8 +23,6 @@ spec:
             valueFrom:
               fieldRef:
                 fieldPath: spec.nodeName
-          - name: AWS_DEFAULT_REGION
-            value: us-east-1
         resources:
           requests:
             cpu: 5m
